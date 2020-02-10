@@ -1,0 +1,137 @@
+/*----- Global ------*/
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*----- startView ------*/
+.startView {
+    background-image: url(img/velosipedist-sportsmen-gory-priroda-doroga-road-bike.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.mainImage {
+    width: 100%;
+    position: absolute;
+}
+
+h1 {
+    font-size: 52px;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+a {
+    font-size: 16px;
+}
+
+.btnOne {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: Transparent;
+    border: 2px solid white;
+    border-radius: 100px;
+    padding: 0.6em 1.75em;
+    text-align: center;
+    width: 100px;
+    margin-top: 30px;
+}
+
+.btnOne:hover {
+    background-color: white;
+    color: black;
+}
+
+.startViewWrapper {
+    width: 88%;
+    margin: 0 auto;
+}
+
+.startViewContent {
+    width: 88%;
+    margin: 1000px auto 0 auto;
+    position: absolute;
+}
+
+.startViewContent h1, .startViewContent p, .startViewContent a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+/*----- historyTDF ------*/
+.historyTDF {
+    background-color: white;
+    margin: 0;
+}
+
+.historyTDFWrapper {
+    width: 56%;
+    margin: auto;
+}
+
+.historyTDFContent {
+    width: 56%;
+    margin: 0 auto 0 auto;
+}
+
+#startTitle {
+    font-size: 100px;
+    margin-bottom: 110px;
+    text-align: center;
+}
+
+#startParagraph {
+    font-size: 30px;
+    margin-bottom: 246px;
+    text-align: center;
+}
+
+
+.historyTDFWrapper h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.historyTDFWrapper p {
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.historyTDFWrapper a {
+    font-size: 16px;
+}
+
+.historyTDFContent h1 {
+    padding-top: 150px;
+}
+
+.historyTDFContent h1, .historyTDFContent p, .historyTDFContent a{
+    color: black;
+    text-decoration: none;
+}

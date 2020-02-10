@@ -1,0 +1,149 @@
+/*----- Global ------*/
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+html{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*----- startView ------*/
+.startView {
+    /*
+    Falls image als Hintergrund gilt
+    background-image: url(img/FurkaPass.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+  
+    min-height: 600px; */
+    background-color: red;
+    width: 100%;
+    position: relative;
+}
+
+.mainImage {
+    width: 100%;
+    z-index: 10;
+}
+
+h1 {
+    font-size: 4.0vw;
+    margin-bottom: 0.4vw;
+}
+
+p {
+    font-size: 1.1662vw;
+    font-weight: 100;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+a {
+    font-size: 1.4vw;
+}
+
+.btnOne {
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: Transparent;
+    border: 0.185vw solid white;
+    border-radius: 100px;
+    padding: 0.8vw 1.2vw;
+    text-align: center;
+    width: 9.25vw;
+    margin-top: 2.4vw;
+}
+
+.btnOne:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+.startViewContent {
+    position: absolute;
+    z-index: 100;
+    margin: 0 6% 0 6%;
+    top: 39vw;
+}
+
+.startViewContent h1, .startViewContent p, .startViewContent a{
+    color: white;
+    text-decoration: none;
+}
+
+.startViewContent h1 {
+    font-size: 4.0vw;
+    margin-bottom: 0.4vw;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.startViewContent p {
+    font-weight: normal;
+    font-size: 1.1662vw;
+    margin-bottom: 3vw;
+    opacity: 0.8;
+}
+
+
+
+
+
+/*----- historyTDF ------*/
+.historyTDF {
+    background-color: white;
+    margin: 0;
+}
+
+.historyTDFWrapper {
+    width: 56%;
+    margin: auto;
+}
+
+.historyTDFContent {
+    width: 56%;
+    margin: 0 auto 0 auto;
+}
+
+.historyTDFWrapper h1 {
+    font-size: 52px;
+    margin-bottom: 15px;
+}
+
+.historyTDFWrapper p {
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.historyTDFWrapper a {
+    font-size: 16px;
+}
+
+.historyTDFContent h1 {
+    padding-top: 150px;
+}
+
+.historyTDFContent h1, .historyTDFContent p, .historyTDFContent a{
+    color: black;
+    text-decoration: none;
+}
