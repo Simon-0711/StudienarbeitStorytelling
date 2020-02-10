@@ -1,0 +1,372 @@
+#headerUseCaseEtappe8 h1, p, a {
+    text-align: left;
+}
+
+.headerUseCaseEtappe8class p {
+    margin-top: 0.5em;
+}
+
+/* #headerUseCaseEtappe8 p {
+    margin-top: 0.5em;
+} */
+
+#headerUseCaseEtappe8.btn btn-primary btn-xl js-scroll-trigger {
+    text-align: left;
+}
+
+#emailDeveloper {
+    text-align: center;
+}
+
+#mainHeader {
+    font-weight: 700;
+}
+
+/* iPhone */
+
+@media (max-width:449px) {
+    #mainHeader {
+        font-family: 'Roboto', sans-serif;
+        font-size: 3.2rem;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.4;
+        letter-spacing: normal;
+        margin-bottom: -8px;
+    }
+    #mainHeader em {
+        /* display: inline-block; */
+        /* Für Macon Saint- Etienne nicht geeignet*/
+        font-family: BellMT;
+        font-size: 3.6rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.05;
+        letter-spacing: normal;
+    }
+}
+
+/* iPad */
+
+@media (min-width:450px) {
+    #mainHeader em {
+        display: inline-block;
+        font-family: BellMT;
+        font-size: 4.3rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.93;
+        letter-spacing: normal;
+    }
+}
+
+/* PC */
+
+@media (min-width:992px) {
+    #mainHeader {
+        font-family: 'Roboto', sans-serif;
+        font-size: 4rem;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.93;
+        letter-spacing: normal;
+    }
+    #mainHeader em {
+        display: inline-block;
+        font-family: BellMT;
+        font-size: 4.9rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.93;
+        letter-spacing: normal;
+    }
+}
+
+/*
+@media (min-width:1200px) {
+    #mainHeader em {
+        display: inline-block;
+        font-family: BellMT;
+        font-size: 5.8rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.93;
+        letter-spacing: normal;
+    }
+}*/
+
+#textHeader {
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 2.9rem;
+}
+
+#textHeader em {
+    font-family: Bell MT;
+    font-size: 3.4rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.93;
+    letter-spacing: normal;
+}
+
+@media (min-width:450px) {
+    #textHeader {
+        font-family: 'Roboto', sans-serif;
+        display: inline-block;
+        font-weight: 700;
+        font-size: 3.5rem;
+    }
+    #textHeader em {
+        font-family: Bell MT;
+        font-size: 4.4rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.93;
+        letter-spacing: normal;
+    }
+}
+
+@media (min-width:992px) {
+    #textHeader {
+        font-family: 'Roboto', sans-serif;
+        display: inline-block;
+        font-weight: 700;
+        font-size: 4rem;
+    }
+    #textHeader em {
+        font-family: Bell MT;
+        font-size: 4.9rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.93;
+        letter-spacing: normal;
+    }
+}
+
+#textSecondHeader {
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+
+@media (min-width:450px) {
+    #textSecondHeader {
+        text-align: center;
+        padding-top: 1em;
+        padding-bottom: 3em;
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}
+
+#contactContainer, #containerFooter {
+    font-family: 'Roboto', sans-serif;
+}
+
+.mainText {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.05rem;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1e1e1e;
+    padding-bottom: 1.5rem;
+}
+
+.mainTextHeader {
+    font-family: Roboto;
+    font-size: 1.05rem;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.61;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1e1e1e;
+    margin-bottom: 0.2rem;
+}
+
+@media (min-width:450px) {
+    .mainText {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.05rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.57;
+        letter-spacing: normal;
+        text-align: left;
+        color: #1e1e1e;
+        padding-bottom: 1.5rem;
+    }
+    .mainTextHeader {
+        font-family: Roboto;
+        font-size: 1.05rem;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.61;
+        letter-spacing: normal;
+        text-align: left;
+        color: #1e1e1e;
+        margin-bottom: 0.2rem;
+    }
+}
+
+@media (min-width:992px) {
+    .mainText {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.57;
+        letter-spacing: normal;
+        text-align: left;
+        color: #1e1e1e;
+        padding-bottom: 1.5rem;
+    }
+    .mainTextHeader {
+        font-family: Roboto;
+        font-size: 1.3rem;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.61;
+        letter-spacing: normal;
+        text-align: left;
+        color: #1e1e1e;
+    }
+}
+
+/* iPhone*/
+
+@media (max-width:449px) {
+    /* width of main header of the text */
+    .col-lg-7.text-center.veryMainTextHeader {
+        padding: 0rem
+    }
+    /* widht of main text */
+    .col-lg-8.text-center.veryMainText {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* iPad*/
+
+@media (max-width:991px) {
+    /* width of main header of the text */
+    .col-lg-7.text-center.veryMainTextHeader {
+        flex: 0 0 100%;
+        max-width: 86%;
+    }
+    /* widht of main text */
+    .col-lg-8.text-center.veryMainText {
+        flex: 0 0 100%;
+        max-width: 97%;
+    }
+}
+
+
+/* scale of images in div */
+img {
+    width: 100%;
+}
+
+
+/* image scaling in general */
+.images {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+}
+
+/* image scaling in general */
+@media (min-width:450px) {
+    .images {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 4rem;
+    }
+}
+
+/* image scaling in general */
+@media (min-width:991px) {
+    .images {
+        /* position: relative;
+    width: 80%; */
+        /* behaves identical */
+        flex: 0 0 100%;
+        max-width: 80%;
+    }
+}
+
+/* -------------------------------------- */
+/* image scaling for profil */
+.profil {
+    flex: 0 0 100%;
+    max-width: 90%;
+}
+/* -------------------------------------- */
+
+/* -------------------------------------- */
+/* image scaling for map of tdf */
+.mapTDF {
+    flex: 0 0 100%;
+    max-width: 90%;
+}
+
+/* image scaling for map of tdf */
+@media (min-width:450px) {
+    .mapTDF {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+/* image scaling for map of tdf */
+@media (min-width:991px) {
+    .mapTDF {
+        /* position: relative;
+    width: 80%; */
+        /* behaves identical */
+        flex: 0 0 100%;
+        max-width: 90%;
+    }
+}
+/* -------------------------------------- */
+
+/* -------------------------------------- */
+/* image scaling for Jan Ullrich */
+.JanUllrich {
+    margin-bottom: 0rem;
+}
+/* -------------------------------------- */
+
+
+#map {
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1000px;
+}
